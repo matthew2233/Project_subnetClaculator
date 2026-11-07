@@ -1,0 +1,7 @@
+git clone <URL_REPOZITARE>          # Stáhne repozitář k tobě na disk
+git checkout -b feature/vypocty     # Vytvoří a přepne tě do nové větve
+git status                          # Ukáže, které soubory jsi změnil
+git add .                           # Připraví všechny změněné soubory k uložení
+git commit -m "Pridan priklad vypoctu do docs/priklad.md"  # Uloží změny s popisem
+git push origin main                # Odešle commity na GitHub/GitLab
+git pull                            # Stáhne případné změny ze serveru k tobě
